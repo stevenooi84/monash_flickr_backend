@@ -41,7 +41,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 
 @CrossOrigin
 @RestController
-@RequestMapping("api/login2")
+@RequestMapping("api/login")
 public class AuthController{
 
     private static final Logger logger = LogManager.getLogger(AuthController.class);
